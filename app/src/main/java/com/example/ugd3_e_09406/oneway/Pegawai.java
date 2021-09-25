@@ -1,4 +1,4 @@
-package com.example.gd3_e_09406.oneway;
+package com.example.ugd3_e_09406.oneway;
 
 public class Pegawai {
     public String nama_pegawai;

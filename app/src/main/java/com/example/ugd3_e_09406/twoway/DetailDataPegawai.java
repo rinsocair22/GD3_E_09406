@@ -1,4 +1,4 @@
-package com.example.gd3_e_09406.twoway;
+package com.example.ugd3_e_09406.twoway;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import com.example.gd3_e_09406.R;
-import com.example.gd3_e_09406.databinding.TwoWayBinding;
+import com.example.ugd3_e_09406.R;
+import com.example.ugd3_e_09406.databinding.TwoWayBinding;
 import com.google.gson.Gson;
 
 public class DetailDataPegawai extends AppCompatActivity {
@@ -18,6 +18,7 @@ public class DetailDataPegawai extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
+        setTitle("UGD3_E_09406");
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.two_way);
 

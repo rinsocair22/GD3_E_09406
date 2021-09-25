@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.gd3_e_09406">
+    package="com.example.ugd3_e_09406">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GD3_E_09406">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ugd3_e_09406.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".oneway.TampilPegawai"></activity>
-        <activity android:name=".twoway.InputDataPegawai"></activity>
-        <activity android:name=".twoway.DetailDataPegawai"></activity>
+        <activity android:name="com.example.ugd3_e_09406.oneway.TampilPegawai"></activity>
+        <activity android:name="com.example.ugd3_e_09406.twoway.InputDataPegawai"></activity>
+        <activity android:name="com.example.ugd3_e_09406.twoway.DetailDataPegawai"></activity>
     </application>
 
 </manifest>

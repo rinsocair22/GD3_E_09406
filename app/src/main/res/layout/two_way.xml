@@ -7,10 +7,10 @@
     <data>
         <variable
             name="pgwi"
-            type="com.example.gd3_e_09406.twoway.Pegawai" />
+            type="com.example.ugd3_e_09406.twoway.Pegawai" />
         <variable
             name="activity"
-            type="com.example.gd3_e_09406.twoway.DetailDataPegawai" />
+            type="com.example.ugd3_e_09406.twoway.DetailDataPegawai" />
     </data>
     <RelativeLayout
         android:layout_width="match_parent"

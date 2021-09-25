@@ -1,9 +1,9 @@
-package com.example.gd3_e_09406.twoway;
+package com.example.ugd3_e_09406.twoway;
 
 import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;
 
-import com.example.gd3_e_09406.BR;
+import com.example.ugd3_e_09406.BR;
 
 public class Pegawai extends BaseObservable {
     public String nama_pegawai;

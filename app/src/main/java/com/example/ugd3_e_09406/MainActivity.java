@@ -1,16 +1,15 @@
-package com.example.gd3_e_09406;
+package com.example.ugd3_e_09406;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.gd3_e_09406.databinding.ActivityMainBinding;
-import com.example.gd3_e_09406.oneway.TampilPegawai;
-import com.example.gd3_e_09406.twoway.InputDataPegawai;
+import com.example.ugd3_e_09406.databinding.ActivityMainBinding;
+import com.example.ugd3_e_09406.oneway.TampilPegawai;
+import com.example.ugd3_e_09406.twoway.InputDataPegawai;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("UGD3_E_09406");
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
 

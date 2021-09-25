@@ -7,19 +7,19 @@
     <data>
         <variable
             name="pgw"
-            type="com.example.gd3_e_09406.oneway.Pegawai" />
+            type="com.example.ugd3_e_09406.oneway.Pegawai" />
     </data>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:orientation="vertical"
-        tools:context=".oneway.TampilPegawai">
+        tools:context=".oneway.TampilPegawai"
+        android:id="@+id/layout">
 
         <TextView
             android:layout_width="match_parent"

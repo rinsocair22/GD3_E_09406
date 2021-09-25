@@ -1,4 +1,4 @@
-package com.example.gd3_e_09406.twoway;
+package com.example.ugd3_e_09406.twoway;
 
 import android.app.DatePickerDialog;
 import android.content.Intent;
@@ -9,9 +9,9 @@ import android.widget.DatePicker;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import com.example.gd3_e_09406.MainActivity;
-import com.example.gd3_e_09406.R;
-import com.example.gd3_e_09406.databinding.InputdatapegawaiBinding;
+import com.example.ugd3_e_09406.MainActivity;
+import com.example.ugd3_e_09406.R;
+import com.example.ugd3_e_09406.databinding.InputdatapegawaiBinding;
 import com.google.gson.Gson;
 
 import java.text.SimpleDateFormat;
@@ -28,6 +28,7 @@ public class InputDataPegawai extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("UGD3_E_09406");
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.inputdatapegawai);
 
